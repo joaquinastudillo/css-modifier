@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Modifier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="section">
+
+        <div class="columns">
+            <div class="column">
+                <div class="field">
+                    <label class="label">Spacing</label>
+                    <div class="control">
+                        <input class="input" name="spacing" type="range" min="10" max="200" value="10" data-sizing="px">
+                    </div>
+                    <p class="help">This is a help text</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="field">
+                    <label class="label">Blur</label>
+                    <div class="control">
+                        <input class="input" name="blur" type="range" min="0" max="25" value="10" data-sizing="px">
+                    </div>
+                    <p class="help">This is a help text</p>
+                </div>
+
+            </div>
+            <div class="column">
+                <div class="field">
+                    <label class="label">Base Color</label>
+                    <div class="control">
+                        <input class="input" type="color" name="base">
+                    </div>
+                    <p class="help">This is a help text</p>
+                </div>
+            </div>
+        </div>
+
+        <figure class="image is-4by3">
+            <img src="fruits.jpg">
+        </figure>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

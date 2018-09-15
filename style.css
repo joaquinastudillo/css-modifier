@@ -1,0 +1,12 @@
+
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    outline: var(--spacing) solid var(--base);
+    outline-offset: var('-'+--spacing);
+    filter: blur(var(--blur));
+}
